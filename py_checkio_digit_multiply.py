@@ -1,24 +1,21 @@
-# "Fizz buzz" is a word game we will use to teach the robots about division. Let's learn computers.
+# You are given a positive integer. Your function should calculate the product of the digits excluding any zeroes.
 #
-# You should write a function that will receive a positive integer and return:
-# "Fizz Buzz" if the number is divisible by 3 and by 5;
-# "Fizz" if the number is divisible by 3;
-# "Buzz" if the number is divisible by 5;
-# The number as a string for other cases.
-# Input: A number as an integer.
+# For example: The number given is 123405. The result will be 1*2*3*4*5=120 (don't forget to exclude zeroes).
 #
-# Output: The answer as a string.
+# Input: A positive integer.
+#
+# Output: The product of the digits as an integer.
 #
 # Example:
 #
-# checkio(15) == "Fizz Buzz"
-# checkio(6) == "Fizz"
-# checkio(5) == "Buzz"
-# checkio(7) == "7"
+# checkio(123405) == 120
+# checkio(999) == 729
+# checkio(1000) == 1
+# checkio(1111) == 1
 #
-# How it is used: Here you can learn how to write the simplest function and work with if-else statements.
+# How it is used: This task can teach you how to solve a problem with simple data type conversion.
 #
-# Precondition: 0 < number ≤ 1000
+# Precondition: 0 < number < 106
 
 def checkio(number):
     answer = 1
