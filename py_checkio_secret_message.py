@@ -21,10 +21,9 @@
 def find_message(text):
     """Find a secret message"""
     answer = ""
-    for word in text.strip().split():
-        for character in word:
-            if character.isupper():
-                answer += character
+    for character in text:
+        if character.isupper():
+            answer += character
     return answer
 
 if __name__ == '__main__':
